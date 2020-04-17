@@ -2,9 +2,36 @@
 <html>
   <head>
       <title>My Webpage!</title>
+      <link rel="stylesheet" href="styles.css">
+      <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+      </style>
   </head>
   <body>
     <h1>Hello, world!</h1>
     <h2>2</h2>
+      <ul>
+        <li>1 item</li>
+        <li>2 item</li>
+      </ul>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+      </ol>
+      <img src="cat.jpg" height="700" width="50%"> 
+    <h3>Presidents</h3>
+    <table>
+      <tr>
+        <td>George</td>
+        <td>Washington</td>
+      </tr>
+    </table>
+    <form>
+      <input type="text" placeholder="Your Name">
+      <button>Submit!</button>
+    </form>
   </body>
 </html>
